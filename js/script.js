@@ -39,7 +39,7 @@ let cards = ``
 
 for (let i = 0; i < team.length; i++) {
 
-    cards += `<p><span>${team[i].name}</span><span>${team[i].job}</span><img src="img/${team[i].image}" alt=""></p>`
+    cards += `<p><img src="img/${team[i].image}" alt=""><span id="name">${team[i].name}</span><span id="job">${team[i].job}</span></p>`
 
     console.log(team[i].name)
     console.log(team[i].job)
