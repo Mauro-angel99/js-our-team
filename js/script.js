@@ -33,4 +33,8 @@ const team = [
 
 
 
-console.log(team)
+for (let i = 0; i < team.length; i++) {
+    console.log(team[i].name)
+    console.log(team[i].job)
+    console.log(team[i].image)
+}
